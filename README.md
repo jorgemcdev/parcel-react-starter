@@ -10,11 +10,12 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License MIT">
   </a>
+  <a href="https://david-dm.org/jorgemcdev/parcel-react-starter">
+    <img id="badge" src="https://david-dm.org/jorgemcdev/parcel-react-starter.svg" alt="badge" class="" data-reactid="68">
+  </a>
 </div>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![downloads][downloads]][npm-url]
 
 # parcel-react-starter
 React Starter Kit using Parcel as Bundler
