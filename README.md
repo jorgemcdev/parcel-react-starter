@@ -4,15 +4,6 @@
   </a>
 </div>
 
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![tests][tests]][tests-url]
-[![coverage][cover]][cover-url]
-[![chat][chat]][chat-url]
-[![downloads][downloads]][npm-url]
-[![contributors][contributors]][contributors-url]
-
 
 # parcel-react-starter
 React Starter Kit using Parcel as Bundler
