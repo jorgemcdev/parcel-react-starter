@@ -12,6 +12,8 @@
   </a>
 </div>
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 
 # parcel-react-starter
 React Starter Kit using Parcel as Bundler
