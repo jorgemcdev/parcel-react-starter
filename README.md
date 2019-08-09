@@ -14,7 +14,7 @@
     <img id="badge" src="https://david-dm.org/jorgemcdev/parcel-react-starter.svg" alt="badge" class="" data-reactid="68">
   </a>
   <a href="https://travis-ci.com/jorgemcdev/parcel-react-starter">
-    <img href="https://travis-ci.com/jorgemcdev/parcel-react-starter.svg?branch=master" alt="travisCI">\
+    <img src="https://travis-ci.com/jorgemcdev/parcel-react-starter.svg?branch=master" alt="travisCI">
   </a>
 </div>
 
