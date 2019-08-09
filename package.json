@@ -1,0 +1,42 @@
+{
+  "name": "parcel-react-starter",
+  "version": "1.0.0",
+  "description": "React Starter Kit using Parcel as Bundler",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist .cache",
+    "prestart": "npm run clean",
+    "start": "parcel src/index.html",
+    "prebuild": "npm run clean",
+    "build": "parcel build src/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemcdev/parcel-react-starter.git"
+  },
+  "keywords": [
+    "ParcelJS",
+    "ReactJS",
+    "Babel"
+  ],
+  "author": "jorgemcdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemcdev/parcel-react-starter/issues"
+  },
+  "homepage": "https://github.com/jorgemcdev/parcel-react-starter#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.12.0"
+  }
+}
