@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/parcel-bundler/parcel">
-    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/parcel-logo.png" alt="parsel" />
+    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/parcel-logo.svg" alt="parsel" />
   </a>
   <a href="https://github.com/facebook/react">
     <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/react-logo.png" alt="react" />
