@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run test
-  - npm run test:coverall
+  - npm run test:coveralls
   - npm run build
 notifications:
   email: false
