@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/webpack/webpack">
+  <a href="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/parcel-logo.svg">
     <img width="200" height="200" src="https://parceljs.org/assets/parcel-front@2x.webp" alt="parsel" />
   </a>
   <a href="https://github.com/facebook/react">
