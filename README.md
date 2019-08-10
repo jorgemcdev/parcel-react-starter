@@ -3,7 +3,7 @@
     <img width="200" height="200" src="https://parceljs.org/assets/parcel-front@2x.webp" alt="parsel" />
   </a>
   <a href="https://github.com/facebook/react">
-    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/parcel-logo.svg" alt="react" />
+    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/react-logo.png" alt="react" />
   </a>
 </div>
 <div align="center">
