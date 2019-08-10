@@ -19,6 +19,7 @@
   <a href="https://travis-ci.com/jorgemcdev/parcel-react-starter">
     <img src="https://travis-ci.com/jorgemcdev/parcel-react-starter.svg?branch=master" alt="travisCI">
   </a>
+  [![Coverage Status](https://coveralls.io/repos/github/jorgemcdev/parcel-react-starter/badge.svg?branch=master)](https://coveralls.io/github/jorgemcdev/parcel-react-starter?branch=master)
 </div>
 
 
