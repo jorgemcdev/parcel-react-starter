@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './main.scss';
+import './styles/main.scss';
 
-const App = () => <h1>Hello Parcel React</h1>
+import App from './App';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
