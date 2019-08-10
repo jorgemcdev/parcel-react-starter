@@ -1,12 +1,12 @@
 <div align="center">
   <a href="https://github.com/parcel-bundler/parcel">
-    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/parcel-logo.svg" alt="parsel" />
+    <img height="50" src="src/images/parcel-logo.svg" alt="parsel" />
   </a>
-  ➕
   <a href="https://github.com/facebook/react">
-    <img width="200" height="200" src="https://github.com/jorgemcdev/parcel-react-starter/blob/master/src/images/react-logo.png" alt="react" />
+    <img height="50" src="src/images/react-logo.png" alt="react" />
   </a>
 </div>
+<br />
 <div align="center">
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
@@ -25,27 +25,37 @@
   </a>
 </div>
 
-# parcel-react-starter
+<p align="center">React Project Starter</p>
 
-React Starter Kit using Parcel as Bundler
+<br />
 
-1. Install Parcel
-   npm i -D parcel-bundler node-sass
+# Features
 
-2. babel
-   npm i -D @babel/core @babel/plugin-transform-runtime @babel/preset-env
-   npm i -S @babel/runtime
+- Blazing fast bundle times
+- React
+- Babel 7
+- Hot Module Replacement
+- Bundle all your assets: Css, Sass, images, svg, ...
+- Tests - Jest and Enzyme
+- Coverage Report
+- travisCI
+- editorConfig
+- Prettier
 
-.babelrc
-{
-"presets": ["@babel/preset-env", "@babel/preset-react"],
-"plugins": ["@babel/plugin-transform-runtime"]
-}
+# Npm commands
 
-3. React
-   npm i -S react react-dom prop-types
-   mkdir src
-   index.js
-   index.html
+npm start - start the dev server
+npm run build - build to production
+npm run clean - delete .cache and dist folder
 
-4. Update package.json
+npm run lint - eslint check
+npm run lint:fix - execute an eslint and fix the errors
+
+npm test - run tests
+npm run test:watch - run tests in watch mode
+npm run test:coverage - generate coverage report
+
+npm run prettier:check - check code format
+npm run prettier:write - format code
+
+# Building Options
