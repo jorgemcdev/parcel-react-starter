@@ -25,7 +25,7 @@
   </a>
 </div>
 
-<p align="center">React Project Starter</p>
+<p align="center">React Starter using Parcel Bundler</p>
 
 <br />
 
@@ -36,6 +36,7 @@
 - Babel 7
 - Hot Module Replacement
 - Bundle all your assets: Css, Sass, images, svg, ...
+- Env Vars, support loading environment variables from .env files
 - Tests - Jest and Enzyme
 - Coverage Report
 - travisCI
@@ -73,4 +74,53 @@ npm run prettier:write
 
 ```
 
-# Building Options
+# Commands
+
+## Help
+
+parcel help
+
+## Version
+
+parcel --version
+
+# Options
+
+## Output Directory
+
+parcel build entry.js -d build/output
+
+## Port
+
+parcel serve entry.js --port 1111
+
+## Change Log level
+
+parcel entry.js --log-level 1
+
+| Loglevel | Effect                                            |
+| :------: | ------------------------------------------------- |
+|    0     | Logging disabled                                  |
+|    1     | Only log errors                                   |
+|    2     | Log errors and warnings                           |
+|    3     | Log errors, warnings and info                     |
+|    4     | Verbose                                           |
+|    5     | Debug (save everything to a file with timestamps) |
+
+## Open in browser
+
+parcel entry.js --open
+
+## Disable content hashing
+
+parcel build entry.js --no-source-maps
+
+## Disable minification
+
+parcel build entry.js --no-minify
+
+[more options](https://en.parceljs.org/cli.html)
+
+# Links
+
+https://www.parceljs.org
