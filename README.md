@@ -42,20 +42,35 @@
 - editorConfig
 - Prettier
 
-# Npm commands
+# Usage
 
-npm start - start the dev server
-npm run build - build to production
-npm run clean - delete .cache and dist folder
+```sh
+# start the dev server
+npm start
 
-npm run lint - eslint check
-npm run lint:fix - execute an eslint and fix the errors
+# build to production
+npm run build
 
-npm test - run tests
+# delete .cache and dist folder
+npm run clean
+
+# eslint check
+npm run lint
+
+# execute an eslint and fix the errors
+npm run lint:fix
+
+# run tests
+npm test
 npm run test:watch - run tests in watch mode
 npm run test:coverage - generate coverage report
 
-npm run prettier:check - check code format
-npm run prettier:write - format code
+# prettier check
+npm run prettier:check
+
+# prettier format
+npm run prettier:write
+
+```
 
 # Building Options
