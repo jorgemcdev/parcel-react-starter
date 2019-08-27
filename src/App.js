@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import parcelLogo from './images/parcel-logo.svg';
 
 const App = () => (
-  <Fragment>
+  <div className="center">
     <img src={parcelLogo} alt="parcel" width="200" />
-    <h1>Hello Parcel React</h1>
-  </Fragment>
+    <p className="wellcome">Hello React App</p>
+  </div>
 );
 
 export default App;
