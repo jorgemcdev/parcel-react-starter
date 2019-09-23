@@ -10,7 +10,7 @@ describe('Application root', () => {
     const text = (
       <Fragment>
         <img src={parcelLogo} alt="parcel" width="200" />
-        <h1>Hello Parcel React</h1>
+        <h1>Hello React App</h1>
       </Fragment>
     );
     expect(wrapper.contains(text)).toEqual(true);
